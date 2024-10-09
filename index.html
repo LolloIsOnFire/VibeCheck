@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sito Eventi</title>
+    <title>Eventi Esclusivi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/homePage.css">
 </head>
 <body>
@@ -14,52 +14,34 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Eventi</a></li>
+                    <li><a href="#">Galleria</a></li>
                     <li><a href="#">Contatti</a></li>
                 </ul>
             </nav>
+            <div class="search-container">
+                <span class="search-icon">&#128269;</span>
+                <input type="text" id="search" placeholder="Cerca eventi...">
+            </div>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h2>Scopri gli eventi più esclusivi</h2>
-            <p>Concerti, festival e molto altro!</p>
-        </div>
-    </section>
-
-    <section class="events">
-        <div class="container">
-            <h2>Prossimi Eventi</h2>
-            <div class="event-list">
-                <div class="event-item">
-                    <img src="https://via.placeholder.com/150" alt="Evento 1">
-                    <h3>Concerto Live</h3>
-                    <p>15 Ottobre 2024, Milano</p>
-                    <a href="#" class="btn">Scopri di più</a>
-                </div>
-                <div class="event-item">
-                    <img src="https://via.placeholder.com/150" alt="Evento 2">
-                    <h3>Festival Musica</h3>
-                    <p>20 Ottobre 2024, Roma</p>
-                    <a href="#" class="btn">Scopri di più</a>
-                </div>
-                <div class="event-item">
-                    <img src="https://via.placeholder.com/150" alt="Evento 3">
-                    <h3>Stand-Up Comedy</h3>
-                    <p>25 Ottobre 2024, Torino</p>
-                    <a href="#" class="btn">Scopri di più</a>
-                </div>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Eventi Esclusivi</h1>
+                <p>Scopri e partecipa agli eventi più emozionanti e indimenticabili.</p>
+                <a href="#" class="btn">Esplora Eventi</a>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Sito Eventi. Tutti i diritti riservati.</p>
-        </div>
-    </footer>
+        <section class="upcoming-events">
+            <h2>Eventi Imminenti</h2>
+            <div class="event-list">
+                <!-- Gli eventi verranno inseriti qui dinamicamente -->
+            </div>
+        </section>
+    </main>
 
     <script src="JS/mainScript.js"></script>
-
 </body>
 </html>
